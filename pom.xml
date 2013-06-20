@@ -6,7 +6,7 @@
 
     <groupId>com.totsp</groupId>
     <artifactId>goda-chronic</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <gwt.version>2.5.0</gwt.version>

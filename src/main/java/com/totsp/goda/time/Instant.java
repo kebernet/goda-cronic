@@ -57,7 +57,7 @@ public final class Instant
     private static final long serialVersionUID = 3299096530934209741L;
 
     /** The millis from 1970-01-01T00:00:00Z */
-    private final long iMillis;
+    private long iMillis;
 
     //-----------------------------------------------------------------------
     /**

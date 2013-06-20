@@ -74,11 +74,11 @@ public final class Partial
     private static final long serialVersionUID = 12324121189002L;
 
     /** The chronology in use. */
-    private final Chronology iChronology;
+    private  Chronology iChronology;
     /** The set of field types. */
-    private final DateTimeFieldType[] iTypes;
+    private  DateTimeFieldType[] iTypes;
     /** The values of each field in this partial. */
-    private final int[] iValues;
+    private  int[] iValues;
     /** The formatter to use, [0] may miss some fields, [1] doesn't miss any fields. */
     private transient DateTimeFormatter[] iFormatter;
 
